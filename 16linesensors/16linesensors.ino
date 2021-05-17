@@ -51,7 +51,7 @@ display.drawBitmap(0,0,16LINESENSORS, 128, 64, 1);
 display.display();
 delay(2000);
 }
-void lectura(int k) { //Función para la selección del sensor especifico.
+void lectura(int k) { //Function for the selection of the specific sensor.
     switch (k) {
             case 15: digitalWrite(A2, LOW);digitalWrite(A3, LOW);digitalWrite(4, LOW);digitalWrite(7, LOW);break;
             case 14: digitalWrite(A2, HIGH);digitalWrite(A3, LOW);digitalWrite(4, LOW);digitalWrite(7, LOW);break;
